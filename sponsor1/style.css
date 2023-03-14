@@ -1,0 +1,52 @@
+body{
+    margin: 0;
+}
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+
+main{
+    height: 10vh;
+}
+
+.contents{
+    width: 1200px;
+    margin: 0px auto;
+    padding: 100px 0;
+}
+
+.sponsor .header{
+    background: linear-gradient(90deg,#3b82f6 1.12%,#c05576 116.74%);
+    clip-path: polygon(0 100%,100% 35%,100% 100%,0 100%);
+    height: 10rem;
+}
+
+.sponsor .main{
+    background: linear-gradient(90deg,#3b82f6 1.12%,#c05576 116.74%);
+}
+
+.sponsor .main .title{
+    text-align: center;
+    color: #fff;
+    font-size: 2.5rem;
+}
+
+.sponsor .main .info{
+    margin-top: 0.5rem;
+    text-align: center;
+    color: #e5e7eb;
+}
+
+.sponsor .main .list{
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    margin-top: 2.5rem;
+}
+
+.sponsor .footer{
+    background: linear-gradient(90deg,#3b82f6 1.12%,#c05576 116.74%);
+    clip-path: polygon(0 65%,100% 0,0 0, 0 0);
+    height: 10rem;
+}
