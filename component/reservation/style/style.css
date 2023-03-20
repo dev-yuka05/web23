@@ -1,0 +1,79 @@
+body{
+    margin: 0;
+}
+
+*{
+    box-sizing: border-box;
+}
+
+.app{
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 100px 0;
+}
+
+.app .info{
+    display: flex;
+    justify-content: end;
+    gap: 20px;
+}
+
+.app .info .item{
+    display: flex;
+    align-items: center;
+    gap: 7px;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.app .possible{
+    width: 20px;
+    height: 20px;
+    border-radius: 25px;
+    background-color: #22c55e;
+}
+
+.app .Proceeding{
+    width: 20px;
+    height: 20px;
+    border-radius: 25px;
+    background-color: #facc15;
+}
+
+.app .complete{
+    width: 20px;
+    height: 20px;
+    border-radius: 25px;
+    background-color: #ef4444;
+}
+
+.app .date,.app .resource{
+    display: flex;
+}
+
+.app .date .item{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex: 1 1 0;
+    padding: 5px;
+    border-top: 1px solid #eee;
+    border-right: 1px solid #eee;
+    border-bottom: 1px solid #eee;
+}
+
+.app .resource .item{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex: 1 1 0;
+    padding: 5px;
+    border-right: 1px solid #eee;
+    border-bottom: 1px solid #eee;
+}
+
+.app .date .item:first-child, .app .resource .item:first-child{
+    border-left: 1px solid #eee;
+}

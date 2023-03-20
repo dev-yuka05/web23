@@ -1,0 +1,85 @@
+body{
+    margin: 0;
+}
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+
+main{
+    height: 60vh;
+    border-top: 1px solid rgb(229, 231, 235);
+    border-bottom: 1px solid rgb(229, 231, 235);
+    background: rgb(243, 244, 246);
+}
+
+footer{
+    padding: 100px 0 80px 0;
+}
+
+footer .contents{
+    width: 1200px;
+    margin: 0px auto;
+}
+
+footer .logo{
+    font-size: 1.5rem;
+}
+
+footer .footer-grid{
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+}
+
+footer .footer-grid .item{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+footer .footer-grid .item .title{
+    font-weight: 700;
+    color: #334155;
+    font-size: 1rem;
+}
+
+footer .footer-grid .item img{
+    max-width: 80%;
+}
+
+footer .footer-grid .item a{
+    font-weight: 500;
+    text-decoration: none;
+    color: #64748b;
+    transition: 0.3s;
+    font-size: 0.925rem;
+}
+
+footer .footer-grid .item a:hover{
+    color: #2e3846;
+}
+
+footer .footer-external{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 4rem;
+    padding-top: 0.87rem;
+    border-top: 2px solid #e5e7eb;
+}
+
+footer .footer-external .copy{
+    color: #9ca3af;
+    font-size: 13px;
+}
+
+footer .footer-external .sns{
+    display: flex;
+    gap: 0.7rem;
+}
+
+footer .footer-external .sns a{
+    font-size: 1.5rem;
+    color: #abaeb3;
+}
